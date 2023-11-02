@@ -29,6 +29,46 @@
             android:text="0"
             android:textAlignment="center"
             android:textSize="34sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutUp"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="103dp"
+                android:layout_height="98dp"
+                app:srcCompat="@drawable/upgrade" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:layout_weight="1"
+                android:text="Upgrade"
+                android:textAlignment="center"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textUpgrade"
+            android:layout_width="205dp"
+            android:layout_height="115dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
